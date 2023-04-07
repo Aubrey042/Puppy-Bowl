@@ -1,9 +1,17 @@
 import React from 'react'
+import PlayerForm from './PlayerForm';
+import Players from './Players';
+import './style.css';
+
 
 const Main = () => {
-    return <h1>0ur Main Component</h1>;
-  
+  return (
+    <>
+      <PlayerForm />
+      <Players />
+      
+    </>
+  );
 };
-  
-  
-    export default Main;
+
+export default Main;
